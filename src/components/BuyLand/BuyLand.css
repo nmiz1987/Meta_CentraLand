@@ -1,0 +1,83 @@
+.wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  margin: 20px;
+  border: 2px solid rgb(17, 93, 233);
+  width: 80vw;
+}
+
+.title-landInfo {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 1.5em;
+}
+
+.content {
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  width: 50vw;
+  font-size: 1.3em;
+  gap: 10px;
+}
+
+.buy-yes,
+.buy-no {
+  border-radius: 10px;
+  text-decoration: none; /* no underline */
+  padding: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.link-buy-land {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  gap: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.buy-yes {
+  display: inline;
+  border: 3px solid rgb(72, 143, 1);
+  background-color: lawngreen;
+  color: rgb(255, 0, 0);
+}
+
+.buy-yes:hover {
+  background-color: rgb(79, 156, 2);
+}
+
+.buy-no {
+  border: 3px solid rgb(171, 129, 136);
+  background-color: pink;
+  color: darkblue;
+}
+
+.buy-no:hover {
+  background-color: rgb(160, 120, 127);
+}
+
+.link-buy-land a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+strong {
+  padding-right: 5px;
+}
+
+.message {
+  color: dodgerblue;
+  font-weight: bold;
+  font-size: 1.5em;
+}

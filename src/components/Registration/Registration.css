@@ -1,0 +1,62 @@
+.singUp-wrapper {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  flex-basis: 15em;
+}
+
+.singUp-wrapper > form {
+  display: flex;
+  color: rgb(59, 59, 59);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+form label {
+  font-size: 1.5em;
+}
+
+input,
+select {
+  margin-left: 10px;
+}
+
+button {
+  font-size: 1.5em;
+  background-color: #1cbfff;
+  margin-top: 10px;
+  border: 3px solid #1383af;
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  background-color: #168fbe;
+}
+
+.message {
+  color: rgb(13, 29, 252);
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.adminMessage {
+  color: red;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.title-singUp,
+.bottom-singUp {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
