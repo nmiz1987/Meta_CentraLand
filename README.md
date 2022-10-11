@@ -6,6 +6,9 @@ This project was built as part of an Internet technologies course, the project s
 You need to open 2 terminals, 1 to the frontend and the other to the backend.
 In addition you have to install MongoDB on your machine.
 
+## npm install
+run `npm install` to install all the dependencies.
+
 ## How to run this project?
 1.  In the first terminal type `npm run server`. the backend will start at port 5000.
 2.  In the second terminal type `npm start`. the fortend will start at avaliable port.
