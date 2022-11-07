@@ -1,6 +1,6 @@
 # Meta CentraLand
 
-This project was built as part of an Internet technologies course, the project simulates a Meta Centra-Land environment where users can purchase, play and manage virtual spaces
+This project simulates a Meta Centra-Land environment where users can purchase, play and manage virtual spaces.
 
 ## requirements
 You need to open 2 terminals, 1 to the frontend and the other to the backend.
